@@ -1,0 +1,11 @@
+# --- Python 自動化測試核心套件 ---
+pytest==7.4.0
+playwright==1.53.0
+pytest-html==4.1.1
+
+# --- pytest 插件（可選，若你有使用） ---
+pytest-base-url==2.1.0         # 若有設定 base_url 可保留
+pytest-metadata==3.0.0         # pytest-html 的延伸功能（環境資訊欄位）
+
+# --- Playwright 執行前需要裝 driver（請執行一次） ---
+# playwright install
