@@ -13,3 +13,5 @@ class LoginFlow:
         self.action.fill(self.sel.username_input, username)
         self.action.fill(self.sel.password_input, password)
         self.action.click(self.sel.login_button)
+    def screen_shot(self, failname):
+        self.action.take_screenshot(failname)
